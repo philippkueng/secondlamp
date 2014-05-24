@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "underscore": "~1.6.0",
-    "node-hue-api": "~0.2.2"
+    "node-hue-api": "~0.2.2",
+    "hapi": "~5.0.0"
   }
 }
