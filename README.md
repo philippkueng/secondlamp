@@ -7,7 +7,7 @@ This lead to [#SecondLamp](https://twitter.com/search?f=realtime&q=%23SecondLamp
 
 * Max
 * Mat\t?\h?ias
-* Martin
+* [Martin](https://twitter.com/sportmetrics)
 * [Theresa](https://twitter.com/therezajs)
 * [Dominik](https://twitter.com/dominik_stocker)
 * [Dominik](https://twitter.com/borncast)
