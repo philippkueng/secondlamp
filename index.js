@@ -86,12 +86,18 @@ api.lights(function(err, lights) {
     displayResult(lights);
 });
 
+var red = 255;
+var green = 255;
+var blue = 255;
 
+var setState = function() {
+  var state = lightState.create().on().rgb(red, green, blue).brightness(100);
+  api.setLightState(3, state, function(err, lights) {
+      if (err) throw err;
+      displayResult(lights);
+  });
+};
 
-// setInterval(function() {
-//   var state = lightState.create().on().rgb(150, 150, 150).brightness(Math.floor(Math.random() * 100));
-//   api.setLightState(3, state, function(err, lights) {
-//       if (err) throw err;
-//       displayResult(lights);
-//   });
-// }, 1000);
+setInterval(function() {
+  setState();
+}, 100);
